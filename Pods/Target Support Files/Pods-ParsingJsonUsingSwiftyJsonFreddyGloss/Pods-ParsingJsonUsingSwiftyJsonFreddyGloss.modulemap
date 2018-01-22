@@ -1,0 +1,6 @@
+framework module Pods_ParsingJsonUsingSwiftyJsonFreddyGloss {
+  umbrella header "Pods-ParsingJsonUsingSwiftyJsonFreddyGloss-umbrella.h"
+
+  export *
+  module * { export * }
+}

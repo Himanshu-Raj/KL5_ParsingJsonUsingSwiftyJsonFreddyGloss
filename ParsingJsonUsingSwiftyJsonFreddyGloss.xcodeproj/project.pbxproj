@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1542A7A56D0B73EB0C93A0AD /* Pods_ParsingJsonUsingSwiftyJsonFreddyGloss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CE07EC6336E2E8A3661660 /* Pods_ParsingJsonUsingSwiftyJsonFreddyGloss.framework */; };
 		940DF3EF20167A1F008AF583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940DF3EE20167A1F008AF583 /* AppDelegate.swift */; };
 		940DF3F120167A1F008AF583 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940DF3F020167A1F008AF583 /* ViewController.swift */; };
 		940DF3F420167A1F008AF583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940DF3F220167A1F008AF583 /* Main.storyboard */; };
 		940DF3F620167A1F008AF583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940DF3F520167A1F008AF583 /* Assets.xcassets */; };
 		940DF3F920167A1F008AF583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940DF3F720167A1F008AF583 /* LaunchScreen.storyboard */; };
+		940DF40120168505008AF583 /* UserDetails.json in Resources */ = {isa = PBXBuildFile; fileRef = 940DF40020168505008AF583 /* UserDetails.json */; };
+		940DF40520168E49008AF583 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940DF40420168E49008AF583 /* ApiManager.swift */; };
+		940DF40820168EDA008AF583 /* SwiftyPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940DF40720168EDA008AF583 /* SwiftyPerson.swift */; };
+		940DF40A20168F01008AF583 /* FreddyPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940DF40920168F01008AF583 /* FreddyPerson.swift */; };
+		940DF40C20168F23008AF583 /* GlossPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940DF40B20168F23008AF583 /* GlossPerson.swift */; };
+		9481AA042016934600FBDF90 /* Freddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9481AA012016934600FBDF90 /* Freddy.framework */; };
+		9481AA052016934600FBDF90 /* Gloss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9481AA022016934600FBDF90 /* Gloss.framework */; };
+		9481AA062016934600FBDF90 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9481AA032016934600FBDF90 /* SwiftyJSON.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18CE07EC6336E2E8A3661660 /* Pods_ParsingJsonUsingSwiftyJsonFreddyGloss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParsingJsonUsingSwiftyJsonFreddyGloss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		940DF3EB20167A1F008AF583 /* ParsingJsonUsingSwiftyJsonFreddyGloss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParsingJsonUsingSwiftyJsonFreddyGloss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		940DF3EE20167A1F008AF583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		940DF3F020167A1F008AF583 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,16 @@
 		940DF3F520167A1F008AF583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		940DF3F820167A1F008AF583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		940DF3FA20167A1F008AF583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		940DF40020168505008AF583 /* UserDetails.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UserDetails.json; sourceTree = "<group>"; };
+		940DF40420168E49008AF583 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		940DF40720168EDA008AF583 /* SwiftyPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyPerson.swift; sourceTree = "<group>"; };
+		940DF40920168F01008AF583 /* FreddyPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreddyPerson.swift; sourceTree = "<group>"; };
+		940DF40B20168F23008AF583 /* GlossPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossPerson.swift; sourceTree = "<group>"; };
+		9481AA012016934600FBDF90 /* Freddy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Freddy.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/ParsingJsonUsingSwiftyJsonFreddyGloss-bjgikkhqbkkgffcfwfhgxmefxtlu/Build/Products/Debug-iphonesimulator/Freddy/Freddy.framework"; sourceTree = "<group>"; };
+		9481AA022016934600FBDF90 /* Gloss.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gloss.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/ParsingJsonUsingSwiftyJsonFreddyGloss-bjgikkhqbkkgffcfwfhgxmefxtlu/Build/Products/Debug-iphonesimulator/Gloss/Gloss.framework"; sourceTree = "<group>"; };
+		9481AA032016934600FBDF90 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/ParsingJsonUsingSwiftyJsonFreddyGloss-bjgikkhqbkkgffcfwfhgxmefxtlu/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		97C7DD76075E88DC093B0CDE /* Pods-ParsingJsonUsingSwiftyJsonFreddyGloss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParsingJsonUsingSwiftyJsonFreddyGloss.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParsingJsonUsingSwiftyJsonFreddyGloss/Pods-ParsingJsonUsingSwiftyJsonFreddyGloss.debug.xcconfig"; sourceTree = "<group>"; };
+		DB966ED295F5FEE8FBFA3353 /* Pods-ParsingJsonUsingSwiftyJsonFreddyGloss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParsingJsonUsingSwiftyJsonFreddyGloss.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParsingJsonUsingSwiftyJsonFreddyGloss/Pods-ParsingJsonUsingSwiftyJsonFreddyGloss.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9481AA042016934600FBDF90 /* Freddy.framework in Frameworks */,
+				9481AA052016934600FBDF90 /* Gloss.framework in Frameworks */,
+				9481AA062016934600FBDF90 /* SwiftyJSON.framework in Frameworks */,
+				1542A7A56D0B73EB0C93A0AD /* Pods_ParsingJsonUsingSwiftyJsonFreddyGloss.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A95293736A792460D3A975A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97C7DD76075E88DC093B0CDE /* Pods-ParsingJsonUsingSwiftyJsonFreddyGloss.debug.xcconfig */,
+				DB966ED295F5FEE8FBFA3353 /* Pods-ParsingJsonUsingSwiftyJsonFreddyGloss.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7BAC6C36ED24B5C4DDCBBD0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9481AA012016934600FBDF90 /* Freddy.framework */,
+				9481AA022016934600FBDF90 /* Gloss.framework */,
+				9481AA032016934600FBDF90 /* SwiftyJSON.framework */,
+				18CE07EC6336E2E8A3661660 /* Pods_ParsingJsonUsingSwiftyJsonFreddyGloss.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		940DF3E220167A1E008AF583 = {
 			isa = PBXGroup;
 			children = (
 				940DF3ED20167A1F008AF583 /* ParsingJsonUsingSwiftyJsonFreddyGloss */,
 				940DF3EC20167A1F008AF583 /* Products */,
+				7A95293736A792460D3A975A /* Pods */,
+				7BAC6C36ED24B5C4DDCBBD0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +101,50 @@
 			isa = PBXGroup;
 			children = (
 				940DF3EE20167A1F008AF583 /* AppDelegate.swift */,
-				940DF3F020167A1F008AF583 /* ViewController.swift */,
-				940DF3F520167A1F008AF583 /* Assets.xcassets */,
 				940DF3F220167A1F008AF583 /* Main.storyboard */,
 				940DF3F720167A1F008AF583 /* LaunchScreen.storyboard */,
+				940DF40620168EB5008AF583 /* Model */,
+				9481AA00201691D100FBDF90 /* Controller */,
+				940DF40320168E2A008AF583 /* ApiManager */,
+				940DF4022016850E008AF583 /* JSON file */,
+				940DF3F520167A1F008AF583 /* Assets.xcassets */,
 				940DF3FA20167A1F008AF583 /* Info.plist */,
 			);
 			path = ParsingJsonUsingSwiftyJsonFreddyGloss;
+			sourceTree = "<group>";
+		};
+		940DF4022016850E008AF583 /* JSON file */ = {
+			isa = PBXGroup;
+			children = (
+				940DF40020168505008AF583 /* UserDetails.json */,
+			);
+			name = "JSON file";
+			sourceTree = "<group>";
+		};
+		940DF40320168E2A008AF583 /* ApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				940DF40420168E49008AF583 /* ApiManager.swift */,
+			);
+			name = ApiManager;
+			sourceTree = "<group>";
+		};
+		940DF40620168EB5008AF583 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				940DF40720168EDA008AF583 /* SwiftyPerson.swift */,
+				940DF40920168F01008AF583 /* FreddyPerson.swift */,
+				940DF40B20168F23008AF583 /* GlossPerson.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9481AA00201691D100FBDF90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				940DF3F020167A1F008AF583 /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 940DF3FD20167A1F008AF583 /* Build configuration list for PBXNativeTarget "ParsingJsonUsingSwiftyJsonFreddyGloss" */;
 			buildPhases = (
+				CEEB0C3B734E7F32132DA3A6 /* [CP] Check Pods Manifest.lock */,
 				940DF3E720167A1E008AF583 /* Sources */,
 				940DF3E820167A1E008AF583 /* Frameworks */,
 				940DF3E920167A1E008AF583 /* Resources */,
+				475038EE12F1FC05F6E91597 /* [CP] Embed Pods Frameworks */,
+				B1FF23426737FBE2C82DDDE4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				940DF3F920167A1F008AF583 /* LaunchScreen.storyboard in Resources */,
+				940DF40120168505008AF583 /* UserDetails.json in Resources */,
 				940DF3F620167A1F008AF583 /* Assets.xcassets in Resources */,
 				940DF3F420167A1F008AF583 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +219,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		475038EE12F1FC05F6E91597 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParsingJsonUsingSwiftyJsonFreddyGloss/Pods-ParsingJsonUsingSwiftyJsonFreddyGloss-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1FF23426737FBE2C82DDDE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParsingJsonUsingSwiftyJsonFreddyGloss/Pods-ParsingJsonUsingSwiftyJsonFreddyGloss-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEEB0C3B734E7F32132DA3A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		940DF3E720167A1E008AF583 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				940DF3F120167A1F008AF583 /* ViewController.swift in Sources */,
+				940DF40520168E49008AF583 /* ApiManager.swift in Sources */,
+				940DF40A20168F01008AF583 /* FreddyPerson.swift in Sources */,
+				940DF40820168EDA008AF583 /* SwiftyPerson.swift in Sources */,
 				940DF3EF20167A1F008AF583 /* AppDelegate.swift in Sources */,
+				940DF40C20168F23008AF583 /* GlossPerson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +398,7 @@
 		};
 		940DF3FE20167A1F008AF583 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97C7DD76075E88DC093B0CDE /* Pods-ParsingJsonUsingSwiftyJsonFreddyGloss.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F3STVUX4CB;
@@ -272,6 +412,7 @@
 		};
 		940DF3FF20167A1F008AF583 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB966ED295F5FEE8FBFA3353 /* Pods-ParsingJsonUsingSwiftyJsonFreddyGloss.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F3STVUX4CB;
@@ -302,6 +443,7 @@
 				940DF3FF20167A1F008AF583 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
